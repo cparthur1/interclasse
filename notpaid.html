@@ -7,24 +7,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="body">
+<div class="main">
 <div class="block" style="margin-top: 100px;">
     <img src="./notpaid.png" class="img">
 </div>
 <div class="block">
     <p>Sua inscrição foi confirmada, mas não está paga.</p>
 </div>
-<div class="block">
+<div style="margin-bottom: 10px;" class="block">
     <p>Faça o pagamento presencialmente ou pelo pix no QR code (gremio.ifscsmo@gmail.com)</p>
 </div>
-<div class="block">
+<div style="display: flex; justify-content: center;">
+<div class="imgblock">
     <img style="height: 200px;" src="./qr.jpg">
 </div>
-<div class="block">
-    <button onclick="voltar ()">Voltar</button>
-    <button onclick="contato ()">Entrar em contato</button>
+</div>
+<div style="margin-top: 10px;" class="block">
+    <div class="button_np" onclick="voltar ()">
+        <img src="back.png" style="height: 40px;">
+        <p style="margin: 0; margin-left: 10px; font-size:25px; margin-top: 1px; margin-right: 5px;">Voltar</p>
+    </div>
+    <div class="button_np" onclick="contato ()">
+        <img src="contact.png" style="height: 40px;">
+        <p style="margin: 0; margin-left: 10px; font-size:25px; margin-top: 1px; margin-right: 5px;">Contato</p>
+    </div>
 </div>
 <div class="block">
-    <p style="margin-left: 50px; margin-right: 50px;">O comprovante de inscrição deve ser enviado pelo email do próprio Pix. Os dados do site são atualizados manualmente e, por esse motivo, podem demorar um tempo para apresentarem o resultado esperado.</p>
+    <p class="smalltxt">O comprovante de inscrição deve ser enviado pelo email do próprio Pix. Os dados do site são atualizados manualmente e, por esse motivo, podem demorar um tempo para apresentarem o resultado esperado.</p>
+</div>
 </div>
 <script>
 function voltar () {

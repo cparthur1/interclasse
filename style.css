@@ -5,12 +5,95 @@
     background-color: rgb(255, 255, 255); 
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    background-image: url("background.jpg");
+    background-image: url("bg.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: inherit;
 }
 .block {
     display: flex;
     text-align: center;
     justify-content: center;
+}
+.main{
+    background-color: rgba(97, 118, 111, 0.541);
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+    position: fixed;
+    z-index: 0;
+    top: 5%;
+    left: 12.5%;
+    justify-self: center;
+    align-content: center;
+    width: 75%;
+    height: auto;
+    margin: auto;
+    color: rgb(236, 243, 235);
+    padding: 20px;
+    font-size: 30px;
+    text-align: justify;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.img{
+    height: 100px;
+}
+.input{
+    block-size: 480px;
+    display: block;
+    font-size: 22px;
+    height: 40px;
+    inline-size: 320px;
+    line-height: 18px;
+    text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    width: 320px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.767);
+    outline: 0px;
+    text-align: center;
+    color: rgb(27, 41, 36);
+}
+.button{
+    margin-left: 5px;
+    width: 90px;
+    height: 43px;
+    margin-top: 2px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    outline: 0px;
+    background-color: rgb(39, 48, 39);
+    color: aliceblue;
+    border-radius: 5px;
+}
+.button_np{
+    margin-left: 5px;
+    height: 43px;
+    margin-top: 2px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-items: center;
+    font-size: 20px;
+    outline: 0px;
+    background-color: rgb(39, 48, 39);
+    color: aliceblue;
+    border-radius: 7px;
+    padding: 10px;
+}
+.smalltxt{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    text-align: justify;
+}
+.imgblock{
+    height: 200px;
+    width: 200px;
+    padding: 15px;
+    align-content: center;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
 }
