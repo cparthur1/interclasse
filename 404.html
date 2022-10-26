@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Hello world</title>
+    <link rel="icon" type="image/x-icon" href="./vanellus.png">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+<div class="block" style="margin-top: 100px;">
+    <img src="./404.png" class="img">
+</div>
+<div class="block">
+    <p style="margin-left: 20%; margin-right: 20%;">Não foi possível encontrar a sua inscrição, verifique se o nome da equipe foi digitiado corretamente ou entre em contato.</p>
+</div>
+<div class="block">
+    <button onclick="voltar ()">Voltar</button>
+    <button onclick="contato ()">Entrar em contato</button>
+</div>
+<script>
+function voltar () {
+location.href = './index.html';
+  }
+function contato () {
+location.href = 'https://api.whatsapp.com/send?phone=5549998038961'
+}
+</script>
+</body>
